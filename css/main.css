@@ -1,0 +1,25 @@
+body {
+	background-color: antiquewhite;
+}
+
+.snl {
+	padding: 1em;
+	font-size: 2em;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 800;
+}
+
+.board {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	background-color: rgb(80, 140, 190);
+}
+
+.board:nth-child(2n) {
+	background-color: pink;
+}
+
+.cell {
+	padding: 1em;
+	border: 1px solid yellow;
+}
