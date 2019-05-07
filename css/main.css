@@ -23,3 +23,37 @@ body {
 	padding: 1em;
 	border: 1px solid yellow;
 }
+
+/* DICE STYLES */
+
+#container {
+	width:30%;
+	margin:auto;
+	border:red solid 1px;
+	height:100px;
+	text-align:center;
+}
+  
+#dice {
+	width:80%;
+	height:80%;
+	border: solid 1px black;
+	margin: auto;
+	vertical-align:middle;
+}
+  
+#button {
+	margin: auto;
+	display: block;
+	background: none;
+	border: none;
+	font-size: 1em;
+	padding: 1em;
+	background-color:blue;
+}
+
+#button:hover {
+	background-color: yellow;
+	transition: 1s;
+	border-radius: 2em;
+}
