@@ -24,36 +24,30 @@ body {
 	border: 1px solid yellow;
 }
 
-/* DICE STYLES */
-
-#container {
-	width:30%;
-	margin:auto;
-	border:red solid 1px;
-	height:100px;
-	text-align:center;
-}
-  
+/***** dice *****/  
 #dice {
-	width:80%;
-	height:80%;
-	border: solid 1px black;
-	margin: auto;
-	vertical-align:middle;
+	width:5em;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 5em;
+	padding: 0.25em;
 }
   
+/*****  button *****/
 #button {
-	margin: auto;
+	margin: 1em auto;
 	display: block;
 	background: none;
 	border: none;
 	font-size: 1em;
-	padding: 1em;
-	background-color:blue;
+	padding: 1.25em;
+	background-color: yellowgreen;
+	border-radius: 0.5em;
 }
 
 #button:hover {
-	background-color: yellow;
+	background-color: green;
 	transition: 1s;
-	border-radius: 2em;
+	border-radius: 3em;
+	color: white;
 }
